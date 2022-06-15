@@ -21,11 +21,69 @@ font-family: 'Roboto', sans-serif;
 .logo-accent {
     color: var(--accent-color);
 }
-.header {
 
+.nav-link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
 }
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.current {
+    color: var(--accent-color);
+}
+.contacts-link {
+    color: var(--primary-text-color)
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;  
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration-line: none;
+}
+.link:hover,
+.link:focus {
+    text-decoration-line: underline;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--primery-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    }
+
 .footer {
     background-color: #2F303A;
+}
+.adress {
+    font-style: normal;
 }
 .logo-footer {
     color: var(--primery-white-color);
@@ -33,5 +91,19 @@ font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.adress-map-link {
+    color: var(--primery-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.adress-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
