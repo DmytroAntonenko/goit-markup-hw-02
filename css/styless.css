@@ -4,7 +4,9 @@
     --accent-color:  #2196F3;
     --primery-white-color: #FFFFFF;
     --font-family-title: 'Roboto', sans-serif;
-    
+    --additional-background-color: #2F303A;
+    --team-background-color: #F5F4FA;
+
 }
 body {
 background-color: var(--primery-white-color);
@@ -64,7 +66,7 @@ font-family: var(--font-family-title);
 }
 /* main */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--additional-background-color);
 }
 .hero-title {
     color: var(--primery-white-color);
@@ -79,14 +81,16 @@ font-family: var(--font-family-title);
 .button {
     color: var(--primery-white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    text-align: center;
     cursor: pointer;
     }
 .button:hover,
 .button:focus {
-background-color: red;
+background-color: #188ce8;
 }
 
 .visually-hidden {
@@ -116,6 +120,10 @@ background-color: red;
     letter-spacing: 0.03em;
 }
 
+.team {
+    background-color: var(--team-background-color);
+}
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -131,7 +139,7 @@ background-color: red;
 }
 /* Footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--additional-background-color);
 }
 .adress {
     font-style: normal;
@@ -158,8 +166,16 @@ background-color: red;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.adress-map-link:hover,
+.adress-map-link:focus, 
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+
 /* Potfolio */
 .projects-button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
