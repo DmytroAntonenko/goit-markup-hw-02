@@ -3,13 +3,16 @@
     --title-text-color: #212121;
     --accent-color:  #2196F3;
     --primery-white-color: #FFFFFF;
+    --font-family-title: 'Roboto', sans-serif;
     
 }
 body {
 background-color: var(--primery-white-color);
 color: var(--primary-text-color);
-font-family: 'Roboto', sans-serif;
+font-family: var(--font-family-title);
 }
+
+/* Header */
 .logo-header {
     color: var(--title-text-color);
     font-family: 'Raleway', sans-serif;
@@ -37,12 +40,13 @@ font-family: 'Roboto', sans-serif;
     color: var(--accent-color);
 }
 .contacts-link {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
-    letter-spacing: 0.02em;  
-}
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}    
+
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
@@ -56,8 +60,9 @@ font-family: 'Roboto', sans-serif;
 .link:hover,
 .link:focus {
     text-decoration-line: underline;
+    text-decoration-line: var(--accent-color);
 }
-
+/* main */
 .hero {
     background-color: #2F303A;
 }
@@ -79,6 +84,48 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.88;
     }
 
+.visually-hidden {
+    visibility: hidden;
+    }
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    }
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    }
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team-positoin {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+/* Footer */
 .footer {
     background-color: #2F303A;
 }
