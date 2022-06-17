@@ -154,14 +154,12 @@ background-color: #188ce8;
 }
 .adress-map-link {
     color: var(--primery-white-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .adress-link {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
